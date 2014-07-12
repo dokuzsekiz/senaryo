@@ -4,7 +4,7 @@
     <head>
         
         <meta charset="UTF-8">
-        <title>Çevik Süreçler ve Scrum | Senaryo</title>
+        <title>Git &amp; Git Flow | Senaryo</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 0.5.2">
@@ -19,10 +19,10 @@
     <meta name="author" content="onurozgurozkan">
     
     
-    <link rel="next" href="../git_&amp;_git_flow/README.html" />
+    <link rel="next" href="../semantik_versiyonlama/README.html" />
     
     
-    <link rel="prev" href="../ortak_calismak/README.html" />
+    <link rel="prev" href="../cevik_surecler_ve_scrum/README.html" />
     
 
         
@@ -34,7 +34,7 @@
 
 
         
-    <div class="book" data-github="onurozgurozkan/senaryo" data-level="1.1.1" data-basepath=".." data-revision="1405186786360">
+    <div class="book" data-github="onurozgurozkan/senaryo" data-level="1.1.2" data-basepath=".." data-revision="1405186786360">
     <div class="book-header">
     <!-- Actions Left -->
     <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
@@ -118,7 +118,7 @@
         
         
         <li>
-            <a href="https://github.com/onurozgurozkan/senaryo/edit/master/cevik_surecler_ve_scrum/README.md" target="blank" class="contribute-link">Edit and Contribute</a>
+            <a href="https://github.com/onurozgurozkan/senaryo/edit/master/git_&amp;_git_flow/README.md" target="blank" class="contribute-link">Edit and Contribute</a>
         </li>
         
 
@@ -237,7 +237,7 @@
             <div class="page-wrapper" tabindex="-1">
                 <div class="book-progress">
     <div class="bar">
-        <div class="inner" style="width: 37.5%;min-width: 25%;"></div>
+        <div class="inner" style="width: 50%;min-width: 37.5%;"></div>
     </div>
     <div class="chapters">
     
@@ -249,7 +249,7 @@
     
         <a href="../cevik_surecler_ve_scrum/README.html" title="Çevik Süreçler ve Scrum" class="chapter done " data-progress="1.1.1" style="left: 37.5%;"></a>
     
-        <a href="../git_&amp;_git_flow/README.html" title="Git &amp; Git Flow" class="chapter  " data-progress="1.1.2" style="left: 50%;"></a>
+        <a href="../git_&amp;_git_flow/README.html" title="Git &amp; Git Flow" class="chapter done " data-progress="1.1.2" style="left: 50%;"></a>
     
         <a href="../semantik_versiyonlama/README.html" title="Semantik Versiyonlama" class="chapter  " data-progress="1.1.3" style="left: 62.5%;"></a>
     
@@ -264,41 +264,46 @@
 
                 <div class="page-inner">
                 
-                    <section class="normal" id="section-gitbook_1762">
+                    <section class="normal" id="section-gitbook_1766">
                     
-                        <h1 id="-evik-s-re-ler-ve-scrum">Çevik Süreçler ve Scrum</h1>
+                        <h1 id="git-git-flow">Git &amp; Git Flow</h1>
+<h2 id="git">Git</h2>
+<h3 id="commit">Commit</h3>
+<p><code>DEV-12 #time 25m #comment Cancel sending email at staging env.</code></p>
 <ul>
-<li><a href="http://agilemanifesto.org/iso/tr/" target="_blank">Çevik manifesto</a>yu mutlaka okuyun ve bütün ekibin okumasını sağlayın.</li>
-<li><a href="https://www.scrum.org/Portals/0/Documents/Scrum%20Guides/2013/Scrum-Guide-TR.pdf" target="_blank">Scrum kılavuzu</a>nu mutlaka okuyun ve bütün ekibin okumasını sağlayın.</li>
-<li>Scrum için <a href="https://www.atlassian.com/software/jira" target="_blank">Jira</a> yazılımını kullanın.</li>
+<li>İngilizce olmalıdır.</li>
+<li>Issue numarası mutlaka olmalıdır.</li>
+<li>Harcanan süre mutlaka olmalıdır.</li>
+<li>Comment cümle şeklinde olmalıdır. Büyük harf ile başlamalı ve ne yapıldığı yazılmalıdır.</li>
 </ul>
-<h2 id="en-ok-yap-lan-hatalar">En çok yapılan hatalar</h2>
-<p><strong> HATA 1 </strong></p>
-<p>Scrum sadece geliştirme ekibinin uygulamayabileceği bir yöntem değildir. Bütün firmanın ve müşterinin anlaması ve uygulaması ile başarılı olabilir.</p>
+<h3 id="gitignore">Gitignore</h3>
 <ul>
-<li>Pazarlamacınız iterasyon nedir bilmiyorsa iterasyon planı yapmanızın bir anlamı yoktur.</li>
-<li>Müşteriniz hangi iterasyonda hangi özelliklerini alacağını bilmiyorsa ve gelecekte bir tarihte ürünün tamamını ara iterasyonlar olmadan teslim alacak şekilde anlaştıysanız sizin scrum yapma imkanınız yoktur.</li>
+<li>OS, IDE veya Text Editör dosyalarını global gitignore ekle.</li>
+<li>Framework dosyaları için <code>.gitignore</code> dosyası kullan.</li>
 </ul>
-<p><strong> HATA 2 </strong></p>
-<p>Scrum yapılmak için yapılmamalıdır. Örneğin günlük scrum toplantılarının ayakta yapılmasının nedeni 15 dakikayı geçmemesidir. Türkiye&#39;de bu iş kültürel etkenlerden dolayı yöneticinin personeli bir saat ayakta dikip nutuk atması şekline dönüşebilir. 15 dakikada bittikten sonra oturarak çay içerek yapılmasında bence bir sakınca yoktur.</p>
-<p><strong> HATA 3 </strong></p>
-<p>Alınması gerek raporların alınmaması veya alınamaması</p>
-<p>Örneğin</p>
+<h3 id="ara-lar">Araçlar</h3>
 <ul>
-<li>Projelerde Burndown var mı?</li>
-<li>Geliştiricilerin tahmini hızları tutuluyor mu?</li>
+<li><a href="https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/git" target="_blank">oh-my-zsh - git plugin</a></li>
+<li><a href="https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/gitignore/gitignore.plugin.zsh" target="_blank">oh-my-zsh - gitignore plugin</a></li>
 </ul>
-<p>[TODO]</p>
-<p><strong> HATA 4 </strong></p>
-<p>Scrum sürecinin iyileştirilmemesi, durağanlaşması</p>
+<h2 id="git-flow">Git Flow</h2>
+<p><img src="http://danielkummer.github.io/git-flow-cheatsheet/img/git-flow-commands.png" alt="Git Flow"></p>
 <ul>
-<li>Her iterasyondan sonra süreç iyileştirme toplantıları yapılıyor mu? Bu toplantılar sonucunda şu bu kararlar alındı ve şu bu tarihlerde bunlar yapıldı denilebiliyor mu?</li>
+<li>Repo yönetimi için fork/push kullanmıyoruz.</li>
+<li><code>git flow init</code> komutu master branchta çalıştırılmalıdır.</li>
+<li>Geliştiriciler her yaptıkları ayrı <code>feature/branch</code> ta yapmalı ve branchları <code>publish</code> etmelidir.</li>
+<li>Diğer geliştiriciler publish edilen feature/branchı review etmeli ve finish edip develop brancha otomatik merge etmelidir.</li>
+<li>Branch isimleri <code>onur_ozgur_ozkan</code> gibi yılan şeklinde olmalıdır. Hepsi küçük harf ve kelimeler arasında <code>_</code> alt çizgi olmalıdır.</li>
 </ul>
-<p>[TODO]</p>
+<h3 id="ara-lar">Araçlar</h3>
+<ul>
+<li><a href="https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/git-flow" target="_blank">oh-my-zsh - git-flow plugin</a></li>
+</ul>
 <h2 id="kaynaklar">Kaynaklar</h2>
 <ul>
-<li><a href="http://agilemanifesto.org/iso/tr/" target="_blank">Çevik Manifesto</a></li>
-<li><a href="https://www.scrum.org/Portals/0/Documents/Scrum%20Guides/2013/Scrum-Guide-TR.pdf" target="_blank">Scrum Kılavuzu</a></li>
+<li><a href="http://nvie.com/posts/a-successful-git-branching-model/" target="_blank">http://nvie.com/posts/a-successful-git-branching-model/</a></li>
+<li><a href="http://danielkummer.github.io/git-flow-cheatsheet/index.tr_TR.html" target="_blank">http://danielkummer.github.io/git-flow-cheatsheet/index.tr_TR.html</a></li>
+<li><a href="https://confluence.atlassian.com/display/FISHEYE/Using+smart+commits" target="_blank">https://confluence.atlassian.com/display/FISHEYE/Using+smart+commits</a></li>
 </ul>
 
                     
@@ -309,10 +314,10 @@
         </div>
 
         
-        <a href="../ortak_calismak/README.html" class="navigation navigation-prev " aria-label="Previous page: Ortak Çalışmak"><i class="fa fa-angle-left"></i></a>
+        <a href="../cevik_surecler_ve_scrum/README.html" class="navigation navigation-prev " aria-label="Previous page: Çevik Süreçler ve Scrum"><i class="fa fa-angle-left"></i></a>
         
         
-        <a href="../git_&amp;_git_flow/README.html" class="navigation navigation-next " aria-label="Next page: Git &amp; Git Flow"><i class="fa fa-angle-right"></i></a>
+        <a href="../semantik_versiyonlama/README.html" class="navigation navigation-next " aria-label="Next page: Semantik Versiyonlama"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>

@@ -6,5 +6,6 @@
        * [Git & Git Flow](git_&_git_flow/README.md)
        * [Semantik Versiyonlama](semantik_versiyonlama/README.md)
    * [Geliştirme Ortamı](gelistirme_ortami/README.md)
-       * [Dotfiles](dotfiles/README)
+       * [Dotfiles](dotfiles/README.md)
+* [Kişisel Hayat](kisisel_hayat/README.md)
 

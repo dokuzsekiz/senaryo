@@ -4,7 +4,7 @@
     <head>
         
         <meta charset="UTF-8">
-        <title>Çevik Süreçler ve Scrum | Senaryo</title>
+        <title>Semantik Versiyonlama | Senaryo</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 0.5.2">
@@ -19,10 +19,10 @@
     <meta name="author" content="onurozgurozkan">
     
     
-    <link rel="next" href="../git_&amp;_git_flow/README.html" />
+    <link rel="next" href="../gelistirme_ortami/README.html" />
     
     
-    <link rel="prev" href="../ortak_calismak/README.html" />
+    <link rel="prev" href="../git_&amp;_git_flow/README.html" />
     
 
         
@@ -34,7 +34,7 @@
 
 
         
-    <div class="book" data-github="onurozgurozkan/senaryo" data-level="1.1.1" data-basepath=".." data-revision="1405186786360">
+    <div class="book" data-github="onurozgurozkan/senaryo" data-level="1.1.3" data-basepath=".." data-revision="1405186786360">
     <div class="book-header">
     <!-- Actions Left -->
     <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
@@ -118,7 +118,7 @@
         
         
         <li>
-            <a href="https://github.com/onurozgurozkan/senaryo/edit/master/cevik_surecler_ve_scrum/README.md" target="blank" class="contribute-link">Edit and Contribute</a>
+            <a href="https://github.com/onurozgurozkan/senaryo/edit/master/semantik_versiyonlama/README.md" target="blank" class="contribute-link">Edit and Contribute</a>
         </li>
         
 
@@ -237,7 +237,7 @@
             <div class="page-wrapper" tabindex="-1">
                 <div class="book-progress">
     <div class="bar">
-        <div class="inner" style="width: 37.5%;min-width: 25%;"></div>
+        <div class="inner" style="width: 62.5%;min-width: 50%;"></div>
     </div>
     <div class="chapters">
     
@@ -249,9 +249,9 @@
     
         <a href="../cevik_surecler_ve_scrum/README.html" title="Çevik Süreçler ve Scrum" class="chapter done " data-progress="1.1.1" style="left: 37.5%;"></a>
     
-        <a href="../git_&amp;_git_flow/README.html" title="Git &amp; Git Flow" class="chapter  " data-progress="1.1.2" style="left: 50%;"></a>
+        <a href="../git_&amp;_git_flow/README.html" title="Git &amp; Git Flow" class="chapter done " data-progress="1.1.2" style="left: 50%;"></a>
     
-        <a href="../semantik_versiyonlama/README.html" title="Semantik Versiyonlama" class="chapter  " data-progress="1.1.3" style="left: 62.5%;"></a>
+        <a href="../semantik_versiyonlama/README.html" title="Semantik Versiyonlama" class="chapter done " data-progress="1.1.3" style="left: 62.5%;"></a>
     
         <a href="../gelistirme_ortami/README.html" title="Geliştirme Ortamı" class="chapter  " data-progress="1.2" style="left: 75%;"></a>
     
@@ -264,41 +264,16 @@
 
                 <div class="page-inner">
                 
-                    <section class="normal" id="section-gitbook_1762">
+                    <section class="normal" id="section-gitbook_1769">
                     
-                        <h1 id="-evik-s-re-ler-ve-scrum">Çevik Süreçler ve Scrum</h1>
+                        <h1 id="semantik-versiyonlama">Semantik Versiyonlama</h1>
 <ul>
-<li><a href="http://agilemanifesto.org/iso/tr/" target="_blank">Çevik manifesto</a>yu mutlaka okuyun ve bütün ekibin okumasını sağlayın.</li>
-<li><a href="https://www.scrum.org/Portals/0/Documents/Scrum%20Guides/2013/Scrum-Guide-TR.pdf" target="_blank">Scrum kılavuzu</a>nu mutlaka okuyun ve bütün ekibin okumasını sağlayın.</li>
-<li>Scrum için <a href="https://www.atlassian.com/software/jira" target="_blank">Jira</a> yazılımını kullanın.</li>
+<li><a href="http://semver.org/spec/v2.0.0.html" target="_blank">Semver</a>i mutlaka okuyun ve bütün ekibin okumasını sağlayın.</li>
+<li>Uygulamada versiyonunu gösteren bir yer ekleyin. Örneğin <code>.com/VERSION.txt</code></li>
 </ul>
-<h2 id="en-ok-yap-lan-hatalar">En çok yapılan hatalar</h2>
-<p><strong> HATA 1 </strong></p>
-<p>Scrum sadece geliştirme ekibinin uygulamayabileceği bir yöntem değildir. Bütün firmanın ve müşterinin anlaması ve uygulaması ile başarılı olabilir.</p>
-<ul>
-<li>Pazarlamacınız iterasyon nedir bilmiyorsa iterasyon planı yapmanızın bir anlamı yoktur.</li>
-<li>Müşteriniz hangi iterasyonda hangi özelliklerini alacağını bilmiyorsa ve gelecekte bir tarihte ürünün tamamını ara iterasyonlar olmadan teslim alacak şekilde anlaştıysanız sizin scrum yapma imkanınız yoktur.</li>
-</ul>
-<p><strong> HATA 2 </strong></p>
-<p>Scrum yapılmak için yapılmamalıdır. Örneğin günlük scrum toplantılarının ayakta yapılmasının nedeni 15 dakikayı geçmemesidir. Türkiye&#39;de bu iş kültürel etkenlerden dolayı yöneticinin personeli bir saat ayakta dikip nutuk atması şekline dönüşebilir. 15 dakikada bittikten sonra oturarak çay içerek yapılmasında bence bir sakınca yoktur.</p>
-<p><strong> HATA 3 </strong></p>
-<p>Alınması gerek raporların alınmaması veya alınamaması</p>
-<p>Örneğin</p>
-<ul>
-<li>Projelerde Burndown var mı?</li>
-<li>Geliştiricilerin tahmini hızları tutuluyor mu?</li>
-</ul>
-<p>[TODO]</p>
-<p><strong> HATA 4 </strong></p>
-<p>Scrum sürecinin iyileştirilmemesi, durağanlaşması</p>
-<ul>
-<li>Her iterasyondan sonra süreç iyileştirme toplantıları yapılıyor mu? Bu toplantılar sonucunda şu bu kararlar alındı ve şu bu tarihlerde bunlar yapıldı denilebiliyor mu?</li>
-</ul>
-<p>[TODO]</p>
 <h2 id="kaynaklar">Kaynaklar</h2>
 <ul>
-<li><a href="http://agilemanifesto.org/iso/tr/" target="_blank">Çevik Manifesto</a></li>
-<li><a href="https://www.scrum.org/Portals/0/Documents/Scrum%20Guides/2013/Scrum-Guide-TR.pdf" target="_blank">Scrum Kılavuzu</a></li>
+<li><a href="http://semver.org/spec/v2.0.0.html" target="_blank">http://semver.org/spec/v2.0.0.html</a></li>
 </ul>
 
                     
@@ -309,10 +284,10 @@
         </div>
 
         
-        <a href="../ortak_calismak/README.html" class="navigation navigation-prev " aria-label="Previous page: Ortak Çalışmak"><i class="fa fa-angle-left"></i></a>
+        <a href="../git_&amp;_git_flow/README.html" class="navigation navigation-prev " aria-label="Previous page: Git &amp; Git Flow"><i class="fa fa-angle-left"></i></a>
         
         
-        <a href="../git_&amp;_git_flow/README.html" class="navigation navigation-next " aria-label="Next page: Git &amp; Git Flow"><i class="fa fa-angle-right"></i></a>
+        <a href="../gelistirme_ortami/README.html" class="navigation navigation-next " aria-label="Next page: Geliştirme Ortamı"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
