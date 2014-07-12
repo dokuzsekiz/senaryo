@@ -1,10 +1,8 @@
 # Çevik Süreçler ve Scrum
 
-Proje yönetiminde çevik süreçleri veya scrumı kullanamak size başarıyı garantilemez ancak uymazsanız **başarısızlığı** garantilemiş olursunuz. O yüzden kaynaklar bölümündeki [çevik manifesto](http://agilemanifesto.org/iso/tr/) ve [scrum kılavuzu](https://www.scrum.org/Portals/0/Documents/Scrum%20Guides/2013/Scrum-Guide-TR.pdf)nu şiddet ile okumanızı ve uygulamanızı öneririm.
-
-## Araçlar
-
-Bizler scrum uygulamak için [Jira](https://www.atlassian.com/software/jira) yazılımını kullanıyoruz ancak aynı ofiste çalışıyorsanız sizlere düz kağıt, kalem ve bir tahta kullanmanızı öneririm.
+*  [Çevik manifesto](http://agilemanifesto.org/iso/tr/)yu mutlaka okuyun ve bütün ekibin okumasını sağlayın.
+*  [Scrum kılavuzu](https://www.scrum.org/Portals/0/Documents/Scrum%20Guides/2013/Scrum-Guide-TR.pdf)nu mutlaka okuyun ve bütün ekibin okumasını sağlayın.
+* Scrum için [Jira](https://www.atlassian.com/software/jira) yazılımını kullanın.
 
 ## En çok yapılan hatalar
 
