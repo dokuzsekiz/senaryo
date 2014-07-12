@@ -1,10 +1,4 @@
-# Giriş
+# Senaryo
 
-* Teknolojiler
-    * Osx
-    * Vim
-    * Git
-* Girişimler
-    * İnsan kaynakları
-    * Kurum kültürü
+Şimdilik sadece kendime yazıyorum. Okuyacak bir şey yok.
 
