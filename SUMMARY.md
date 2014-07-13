@@ -8,4 +8,6 @@
    * [Geliştirme Ortamı](gelistirme_ortami/README.md)
        * [Dotfiles](dotfiles/README.md)
 * [Kişisel Hayat](kisisel_hayat/README.md)
+* [İş Hayatı](is_hayati/README.md)
+   * [Hedef Odaklı Olmak](hedef_odakli_olmak/README.md)
 

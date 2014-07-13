@@ -1,13 +1,15 @@
 CACHE MANIFEST
-# Revision 1405186786360
+# Revision 1405244329681
 
 CACHE:
-dotfiles/README.html
-cevik_surecler_ve_scrum/README.html
-index.html
 gelistirme/README.html
+cevik_surecler_ve_scrum/README.html
+dotfiles/README.html
+index.html
 gelistirme_ortami/README.html
 git_&_git_flow/README.html
+hedef_odakli_olmak/README.html
+is_hayati/README.html
 kisisel_hayat/README.html
 ortak_calismak/README.html
 semantik_versiyonlama/README.html
