@@ -10,4 +10,5 @@
 * [Kişisel Hayat](kisisel_hayat/README.md)
 * [İş Hayatı](is_hayati/README.md)
    * [Hedef Odaklı Olmak](hedef_odakli_olmak/README.md)
+   * [İş Ataması](is_atamasi/README.md)
 
